@@ -77,7 +77,7 @@
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-	background-image: url('fancybox_sprite.png');
+	
 }
 
 #fancybox-loading {
@@ -102,11 +102,11 @@
 	position: absolute;
 	right: 0;
 	top: 0;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 35px;
 	cursor: pointer;
 	z-index: 9000;
-	background-image: none;
+	background-image: url('fancybox_sprite.png');
 	background-color: #26292E;
 	
 	opacity: 0.5;
@@ -118,6 +118,7 @@
 }
 
 .fancybox-close i {
+	visibility: hidden;
 	left: 50%;
 	top: 50%;
 	margin: -11px 0 0 -11px;
@@ -146,22 +147,25 @@
 .fancybox-prev,
 .fancybox-prev span {
 	left: 0;
+	background-image: url('94d61fab-8dde-4fb9-854d-c9045f3f087d.png');
 }
 
 .fancybox-next,
 .fancybox-next span {
 	right: 0;
+	background-image: url('nexxt.png') ;
+
 }
 
 .fancybox-nav span {
 	position: absolute;
 	top: 50%;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 36px;
 	margin-top: -25px;
 	cursor: pointer;
 	z-index: 8040;
-	background-image: none;
+	
 	background-color: #26292E;
 	
 	opacity: 0.5;
@@ -173,6 +177,7 @@
 }
 
 .fancybox-prev span i {
+	visibility: hidden;
 	left: 50%;
 	top: 50%;
 	margin: -15px 0 0 -17px;
@@ -184,6 +189,7 @@
 
 
 .fancybox-next span i {
+	visibility: hidden;
 	left: 50%;
 	top: 50%;
 	margin: -15px 0 0 -15px;
